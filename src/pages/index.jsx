@@ -1,6 +1,6 @@
 import React from "react";
 import Wrapper from "./Wrapper";
-import HomePage1 from "./homes/home-1";
+import HomePage1 from "./home";
 import MetaComponent from "@/components/common/MetaComponent";
 
 const metadata = {

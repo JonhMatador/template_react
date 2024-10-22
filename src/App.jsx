@@ -9,25 +9,9 @@ import "aos/dist/aos.css";
 import { useEffect } from "react";
 import Context from "@/context/Context";
 import HomePage1 from "./pages";
-/*
-import HomePage2 from "./pages/homes/home-2";
-import HomePage3 from "./pages/homes/home-3";
-import HomePage4 from "./pages/homes/home-4";
-import HomePage5 from "./pages/homes/home-5";
-import HomePage6 from "./pages/homes/home-6";
-import HomePage7 from "./pages/homes/home-7";
-import HomePage8 from "./pages/homes/home-8";
-import HomePage9 from "./pages/homes/home-9";
-import HomePage10 from "./pages/homes/home-10";
-*/
-//import CourseListPage1 from "./pages/coursesList/courses-list-1";
-//import CourseListPage2 from "./pages/coursesList/courses-list-2";
-//import CourseListPage3 from "./pages/coursesList/courses-list-3";
+
 import CourseListPage4 from "./pages/coursesList/courses-list-4";
-//import CourseListPage5 from "./pages/coursesList/courses-list-5";
 import CourseListPage6 from "./pages/coursesList/courses-list-6";
-//import CourseListPage7 from "./pages/coursesList/courses-list-7";
-//import CourseListPage8 from "./pages/coursesList/courses-list-8";
 import CourseSinglePage1 from "./pages/courseSingle/courses";
 import CourseSinglePage2 from "./pages/courseSingle/courses-single-2";
 import CourseSinglePage3 from "./pages/courseSingle/courses-single-3";
@@ -67,9 +51,7 @@ import BlogListpage2 from "./pages/blogs/blog-list-2";
 import BlogListpage3 from "./pages/blogs/blog-list-3";
 import BlogdetailsPage from "./pages/blogs/blogs";
 import AboutPage1 from "./pages/about/about-1";
-//import AboutPage2 from "./pages/about/about-2";
 import ContactPage1 from "./pages/contacts/contact-1";
-//import ContactPage2 from "./pages/contacts/contact-2";
 import ShopCartPage from "./pages/cartPages/shop-cart";
 import ShopCheckoutPage from "./pages/cartPages/shop-checkout";
 import ShopListPage from "./pages/shop/shop-list";
@@ -105,30 +87,9 @@ function App() {
             <Route path="/">
               <Route index element={<HomePage1 />} />
               <Route path="home-1" element={<HomePage1 />} />
-              {/*
-              <Route path="home-2" element={<HomePage2 />} />
-              <Route path="home-3" element={<HomePage3 />} />
-              <Route path="home-4" element={<HomePage4 />} />
-              <Route path="home-5" element={<HomePage5 />} />
-              <Route path="home-6" element={<HomePage6 />} />
-              <Route path="home-7" element={<HomePage7 />} />
-              <Route path="home-8" element={<HomePage8 />} />
-              <Route path="home-9" element={<HomePage9 />} />
-              <Route path="home-10" element={<HomePage10 />} />
-*/}
 
-{/*
-              <Route path="courses-list-1" element={<CourseListPage1 />} />
-              <Route path="courses-list-2" element={<CourseListPage2 />} />
-              <Route path="courses-list-3" element={<CourseListPage3 />} />
-*/}
               <Route path="courses-list-4" element={<CourseListPage4 />} />
               <Route path="courses-list-6" element={<CourseListPage6 />} />
-              {/*
-              <Route path="courses-list-5" element={<CourseListPage5 />} />
-              <Route path="courses-list-7" element={<CourseListPage7 />} />
-              <Route path="courses-list-8" element={<CourseListPage8 />} />
-*/}
 
               <Route path="courses/:id" element={<CourseSinglePage1 />} />
               <Route
@@ -154,7 +115,6 @@ function App() {
 
               <Route path="course-cart" element={<CourseCartPage />} />
               <Route path="course-checkout" element={<CourseCheckoutPage />} />
-              {/* <Route path='courses-single-5/:id' element={<CourseSinglePage6 />} /> */}
 
               <Route path="lesson-single-1" element={<LessonSinglePage1 />} />
               <Route path="lesson-single-2" element={<LessonSinglePage2 />} />
@@ -214,12 +174,8 @@ function App() {
               <Route path="blogs/:id" element={<BlogdetailsPage />} />
 
               <Route path="about-1" element={<AboutPage1 />} />
-              {/*
-              <Route path="about-2" element={<AboutPage2 />} />
-              */}
 
               <Route path="contact-1" element={<ContactPage1 />} />
-              {/*<Route path="contact-2" element={<ContactPage2 />} />*/}
 
               <Route path="shop-cart" element={<ShopCartPage />} />
               <Route path="shop-checkout" element={<ShopCheckoutPage />} />
